@@ -77,3 +77,6 @@ A secure HTTP application built in **Clojure** to demonstrate real-world web sec
 4. **Access Swagger docs at:**
    http://localhost:3000/swagger-ui/index.html
 
+   <img width="1178" alt="image" src="https://github.com/user-attachments/assets/67ddb8c7-ef72-49b5-9393-3fb16c303263" />
+
+
