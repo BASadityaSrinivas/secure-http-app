@@ -62,10 +62,11 @@ A secure HTTP application built in **Clojure** to demonstrate real-world web sec
     - User: postgres, Password: postgres
     - Create users table using:
     ```sql
-    CREATE TABLE users (
-      id SERIAL PRIMARY KEY,
-      username TEXT UNIQUE NOT NULL,
-      password TEXT NOT NULL
+    create table users (
+      id         serial not null,
+      username   varchar primary key,
+      password   varchar,
+      created_at timestamp not null default current_timestamp
     );
     ```
 3. **Run the server:**
